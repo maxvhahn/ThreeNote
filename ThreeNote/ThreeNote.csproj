@@ -213,7 +213,6 @@
     </Compile>
     <Compile Include="Models\AccountBindingModels.cs" />
     <Compile Include="Models\AccountViewModels.cs" />
-    <Compile Include="Models\IdentityModels.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Providers\ApplicationOAuthProvider.cs" />
     <Compile Include="Results\ChallengeResult.cs" />
@@ -306,6 +305,20 @@
     <None Include="packages.config" />
     <Content Include="Scripts\jquery-3.4.1.slim.min.map" />
     <Content Include="Scripts\jquery-3.4.1.min.map" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\ThreeNote.Data\ThreeNote.Data.csproj">
+      <Project>{a3c0afd8-eb01-42b6-b4b0-192e805caa92}</Project>
+      <Name>ThreeNote.Data</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\ThreeNote.Models\ThreeNote.Models.csproj">
+      <Project>{cb9916f1-fc45-4184-b668-306dac38b8c7}</Project>
+      <Name>ThreeNote.Models</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\ThreeNote.Services\ThreeNote.Services.csproj">
+      <Project>{f535b4c4-69ca-4350-95f6-27b9470cbe53}</Project>
+      <Name>ThreeNote.Services</Name>
+    </ProjectReference>
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>

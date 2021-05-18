@@ -10,6 +10,7 @@ using Microsoft.Owin.Security.OAuth;
 using Owin;
 using ThreeNote.Providers;
 using ThreeNote.Models;
+using ThreeNote.Data;
 
 namespace ThreeNote
 {
